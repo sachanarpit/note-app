@@ -1,5 +1,5 @@
 # note-app funcationlity with autosave and share
 
-# note-app demo video
+# note-app demo video link
 
-<video src='https://note-app-sachanarpit.vercel.app/demo.mp4' width=800/>
+https://note-app-sachanarpit.vercel.app/demo.mp4
