@@ -1,0 +1,8 @@
+.ScrollContainer {
+  overflow: scroll;
+  height: 100%;
+  border-right: 1px solid #7070704f;
+  &::-webkit-scrollbar {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,98 @@
+.HeaderRight {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  background-color: #eaeaea;
+  align-items: center;
+  h4 {
+    margin: 0;
+    font-weight: 600;
+  }
+}
+
+.IconContainer {
+  display: flex;
+  gap: 1.5rem;
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+.ShareContainer {
+  position: absolute;
+  right: 3rem;
+  box-shadow: -4px 9px 11px 2px rgba(100, 100, 100, 0.5);
+  width: 30%;
+  background-color: white;
+  animation-name: openPopup;
+  animation-delay: 0.5s;
+  transition: 0.5s all ease-in-out;
+
+  .titleContainer {
+    border-bottom: 1px solid #7070704f;
+    padding: 0.5rem 0.5rem;
+    h4 {
+      margin-left: 2rem;
+      margin: 0;
+      margin: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  .MainContainer {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #7070704f;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    input {
+      width: 60%;
+      background-color: #f0f5fa;
+      border: none;
+      padding: 0.8rem 1rem;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      width: 20%;
+      background-color: #32a05f;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      color: white;
+      font-weight: 700;
+      border-radius: 0.2rem;
+    }
+  }
+}
+
+.OptionBar {
+  padding: 1rem 0.5rem;
+
+  select {
+    border: none;
+    padding: 0.5rem;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@keyframes openPopup {
+  0% {
+    height: 0;
+    opacity: 0;
+    transform: scale(0);
+    width: 0;
+  }
+
+  100% {
+    height: auto;
+    opacity: 1;
+    transform: scale(1);
+    width: auto;
+  }
+}

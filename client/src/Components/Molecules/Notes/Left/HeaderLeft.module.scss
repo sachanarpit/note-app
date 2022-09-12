@@ -1,0 +1,14 @@
+.HeaderLeftContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #7070704f;
+  h3 {
+    color: #2c2731;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  button {
+  }
+}

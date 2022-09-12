@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  margin-bottom: 1rem;
+  align-items: center;
+  h1 {
+    margin: 0.2rem;
+  }
+  p {
+    color: #9b99ad;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,78 @@
+.GoogleButtonContainer {
+  max-width: 20rem;
+  min-width: 14rem;
+
+  height: 3rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 200;
+  border: 2px solid #9b99ad;
+  background-color: transparent;
+  border-radius: 0.2rem;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+  color: #707070;
+  padding-right: 1rem;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+.LoginBtn {
+  background-color: #32a05f;
+  width: 100%;
+  /* height: 2rem; */
+  border: none;
+  border: 1px solid #9b99ad;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+  &:hover {
+    transform: scale(1.01);
+    background-color: rgb(39, 126, 75);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+}
+
+.newNoteBtn {
+  max-width: 10rem;
+  min-width: 3rem;
+  border-radius: 2rem;
+  height: 3rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #32a05f;
+  border: none;
+  padding: 0rem 1rem;
+  height: 2.5rem;
+  cursor: pointer;
+  color: white;
+  &:hover {
+    transform: scale(1.01);
+    background-color: rgb(39, 126, 75);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+}
