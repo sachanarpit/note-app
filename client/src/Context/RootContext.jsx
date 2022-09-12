@@ -203,6 +203,9 @@ export const RootContextProvider = (props) => {
     dispatch({ type: ActionType.SET_LOADER_STATUS, payload: true });
     let allpost = await getAllPosts(state.api, state.UserData.email || "");
     let { data } = allpost.data;
+    if (data.length == 0) {
+      AddNote();  
+    }
     dispatch({ type: ActionType.SET_ALL_NOTES, payload: data });
     dispatch({ type: ActionType.SET_LOADER_STATUS, payload: false });
     // console.log("allpost:", allpost);
